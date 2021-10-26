@@ -14,7 +14,7 @@ int main(void)
     pEnd = str;
     while (1) {
         printf("Before: %p %p\n",pStart,pEnd);
-        f1 = strtof(pStart,&pEnd);
+        f1 = strtof(pStart,&pEnd); // if no result then pStart == pEnd
         if (pEnd == pStart) {
             break;
         }
