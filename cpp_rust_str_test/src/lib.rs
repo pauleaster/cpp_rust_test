@@ -1,8 +1,11 @@
 // Reference: https://github.com/alexcrichton/rust-ffi-examples
 
+
 #![crate_type = "staticlib"]
 use core::slice;
 use std::str;
+
+#[allow(clippy::not_unsafe_ptr_arg_deref)]
 
 #[no_mangle]
 pub extern fn print_floats(string_of_floats: * const u8, len: usize) -> i32 {

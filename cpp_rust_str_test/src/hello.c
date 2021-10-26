@@ -1,8 +1,8 @@
-// Reference: https://github.com/alexcrichton/rust-ffi-examples
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+// Reference: https://github.com/alexcrichton/rust-ffi-examples
 
 
 extern int print_floats(char * str, size_t len);
