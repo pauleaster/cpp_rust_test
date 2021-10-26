@@ -1,2 +1,9 @@
 .vscode
 hello.dSYM
+
+
+# Added by cargo
+
+*/target
+
+*.lock
